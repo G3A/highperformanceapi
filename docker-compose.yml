@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          cpus: 1
+          memory: 1.5g
+    #memswap_limit: 1.5g
