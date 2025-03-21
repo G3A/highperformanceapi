@@ -425,8 +425,8 @@
 
     // Evento para refrescar estadísticas
     refreshStatsEl.addEventListener('click', () => {
-      // Se usa el endpoint /health para obtener totales y otros datos
-      fetch(`${API_BASE_URL}/health`)
+      // Se usa el endpoint /stats/health para obtener totales y otros datos
+      fetch(`${API_BASE_URL}/stats/health`)
         .then((response) => {
           if (!response.ok) {
             throw new Error('No se pudieron cargar las estadísticas');

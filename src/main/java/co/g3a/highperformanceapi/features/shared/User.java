@@ -1,4 +1,4 @@
-package co.g3a.highperformanceapi;
+package co.g3a.highperformanceapi.features.shared;
 
 import java.util.UUID;
 
