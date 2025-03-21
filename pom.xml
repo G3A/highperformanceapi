@@ -43,11 +43,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.lmax</groupId>
-			<artifactId>disruptor</artifactId>
-			<version>4.0.0</version>
-		</dependency>
 	</dependencies>
 
 	<build>
@@ -58,5 +53,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

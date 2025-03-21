@@ -10,4 +10,3 @@ services:
         limits:
           cpus: 1
           memory: 1.5g
-    #memswap_limit: 1.5g
