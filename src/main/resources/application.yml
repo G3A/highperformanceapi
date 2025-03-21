@@ -15,4 +15,4 @@ spring:
         name: high-performance-api
     threads:
         virtual:
-            enabled: false
+            enabled: true
